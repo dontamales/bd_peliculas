@@ -1,33 +1,3 @@
---
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.5
-
--- Started on 2017-03-28 18:39:17
-
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SET check_function_bodies = false;
-SET client_min_messages = warning;
-SET row_security = off;
-
-DROP DATABASE bd_vtasv5;
---
--- TOC entry 2197 (class 1262 OID 67071)
--- Name: bd_vtasv5; Type: DATABASE; Schema: -; Owner: postgres
---
-
-CREATE DATABASE bd_vtasv5 WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'English_United States.1252' LC_CTYPE = 'English_United States.1252';
-
-
-ALTER DATABASE bd_vtasv5 OWNER TO postgres;
-
-\connect bd_vtasv5
-
 SET statement_timeout = 0;
 SET lock_timeout = 0;
 SET client_encoding = 'UTF8';
